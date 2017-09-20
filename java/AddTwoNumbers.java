@@ -1,4 +1,4 @@
-/* 
+/*
  * Solution to Leetcode Problem 2
  * Source: https://leetcode.com/problems/add-two-numbers/
  * Author: Lucas Chen
@@ -6,10 +6,10 @@
 
 /*
  * Converting the lists to numbers, adding them, and converting the sum back to
- * a linked list would require a BigInteger import to avoid integer overflow 
- * if built-in types were used. Such an algorithm would likely have overhead 
+ * a linked list would require a BigInteger import to avoid integer overflow
+ * if built-in types were used. Such an algorithm would likely have overhead
  * from BigInteger operations, so a manual algorithm with bit by bit addition
- * is chosen instead. A carry-in bit is used. To take care of the case when the 
+ * is chosen instead. A carry-in bit is used. To take care of the case when the
  * length of l1 and l2 are different lengths, we set the "value" added as 0
  * if we reach the end of one of them. Iteration occurs until the end of both
  * lists is reached and the carry bit is 0. A dummy head is also used to avoid
@@ -21,7 +21,7 @@
  */
 
 
-public class p002 {
+public class AddTwoNumbers {
     /**
      *  Definition for singly-linked list.
      */
@@ -51,7 +51,7 @@ public class p002 {
                 l2_val = l2.val;
                 l2 = l2.next;
             }
-            
+
             l_sum_bits = l1_val + l2_val + carry;
             l_sum_bits_val = l_sum_bits % 10;
             carry = l_sum_bits / 10;
