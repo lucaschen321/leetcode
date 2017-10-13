@@ -89,7 +89,7 @@ def comments():
 def readme():
     README = open('./README.md', "a")
     FILENAME = TITLE.replace(" ", "") + "." + EXTENSION
-    line = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + "[Java](" + "./java/" + FILENAME + ")|" + TAGS + "|" + DIFFICULTY + "|"
+    line = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + "[Java](" + "./java/" + FILENAME + ")|" + TAGS + "|" + DIFFICULTY + "|\n"
     README.write(line)
     print(line)
 
