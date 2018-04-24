@@ -2,27 +2,38 @@
 
 # import libraries
 from bs4 import BeautifulSoup
-import urllib.request
+from selenium import webdriver
 import textwrap
 import sys
 
 # Metadata
 AUTHOR = "Lucas Chen"
 URL = sys.argv[1]
-EXTENSION = "java"
-
-
-# Imports for code
-JAVA_IMPORTS = """
+EXTENSION = "cpp"  # [cpp | java]
+if EXTENSION == "cpp":
+    FOLDER = "./c++/"
+    IMPORTS = """
+#include "leetcode.h"
+"""
+else:
+    FOLDER = "./java/"
+    IMPORTS = """
 import java.util.*;
 """
 
-# Use BeautifulSoup html parser
-user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-headers = {'User-Agent': user_agent, }
-request = urllib.request.Request(URL, None, headers)
-page = urllib.request.urlopen(request)
-parser = BeautifulSoup(page, 'html.parser')
+# Imports for code
+
+# Selenium
+# driver = webdriver.Chrome()
+# driver.get(URL)
+# html = driver.page_source
+
+# PhantomJS
+driver = webdriver.PhantomJS()
+driver.get(URL)
+html = driver.execute_script("return document.documentElement.innerHTML;")
+
+parser = BeautifulSoup(html, "lxml")
 
 ##############################################################################
 #
@@ -31,7 +42,7 @@ parser = BeautifulSoup(page, 'html.parser')
 #
 ##############################################################################
 
-DESCRIPTION = parser.find('div', attrs={'class': 'question-description'}).text.strip()
+DESCRIPTION = parser.find('div', {'class': 'question-description'}).get_text(strip=True)
 DESCRIPTION = "\n".join('\n'.join(textwrap.wrap(line, 80)) for line in DESCRIPTION.split("\n"))
 DIFFICULTY = parser.find('span', attrs={'class': 'difficulty-label'}).text.strip()
 TAGS = parser.find('div', {'id': 'tags-topics'}).text.strip()
@@ -41,10 +52,6 @@ TITLE = parser.find('h3').text.strip()
 NUMBER = TITLE.split('.')[0]
 TITLE = TITLE.split('.', 1)[1].strip()
 
-# print(NUMBER)
-# print(TITLE)
-# print(DESCRIPTION)
-
 
 ###############################################################################
 #
@@ -53,7 +60,7 @@ TITLE = TITLE.split('.', 1)[1].strip()
 ###############################################################################
 
 def comments():
-    f = open("./java/" + TITLE.replace(" ", "") + "." + EXTENSION, "w+")
+    f = open(FOLDER + TITLE.replace(" ", "") + "." + EXTENSION, "w+")
 
     # Header
     f.write("/*\n")
@@ -71,7 +78,7 @@ def comments():
     f.write(" */\n")
 
     # Imports
-    for line in JAVA_IMPORTS.splitlines():
+    for line in IMPORTS.splitlines():
         f.write(line + "\n")
     f.write("\n")
 
@@ -82,16 +89,46 @@ def comments():
 
 ###############################################################################
 #
-# Add to readme
+# Add new problem to proper place in readme table. If entry is already in the
+# table, either do nothing (if language for that problem already exists) or add
+# it as a new language for that entry (if language for that problem doesn't
+# exist)
 #
 ###############################################################################
 
 def readme():
-    README = open('./README.md', "a")
     FILENAME = TITLE.replace(" ", "") + "." + EXTENSION
-    line = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + "[Java](" + "./java/" + FILENAME + ")|" + TAGS + "|" + DIFFICULTY + "|\n"
-    README.write(line)
-    print(line)
+    # Candidate entry for writing
+    line = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + "[" + FOLDER[2:-1].capitalize() + "](" + FOLDER + FILENAME + ")|" + TAGS + "|" + DIFFICULTY + "|\n"
+
+    # Fetch contents, modify it if necessary, and rewrite it
+    README = open('./README.md', "r")
+    contents = README.readlines()
+    README.close()
+
+    # Comment anchor demarcating where the table begins in entry
+    anchor_line_no = contents.index("<!---anchor--->\n")
+
+    for i in range(anchor_line_no + 1, len(contents)):
+        if int(contents[i].split("|")[1]) == int(NUMBER):
+            # If entry exists, get the file link portion of that entry. Add
+            # candidate file link entry, sort, and remove duplicates.
+            files = sorted(contents[i].split("|")[3].split(",") + [line.split("|")[3]])
+            files = "".join(list(set(files)))
+            contents[i] = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + files + "|" + TAGS + "|" + DIFFICULTY + "|\n"
+            break
+        elif int(NUMBER) < int(contents[i].split("|")[1]):
+            # Insert entry if it fits into middle of the table
+            contents.insert(i, line)
+            break
+        elif i == len(contents) - 1:
+            # Append entry if end of table is reached
+            contents.append(line)
+
+    README = open('./README.md', "w")
+    contents = "".join(contents)
+    README.write(contents)
+    README.close()
 
 
 ###############################################################################
