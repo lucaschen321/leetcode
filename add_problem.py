@@ -3,6 +3,11 @@
 # import libraries
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 import textwrap
 import sys
 
@@ -21,28 +26,38 @@ else:
 import java.util.*;
 """
 
-# Imports for code
+###############################################################################
+#
+# Get HTML into BeautifulSoup using a Selenium Webdriver running Chromedriver
+#
+###############################################################################
 
-# Selenium
-# driver = webdriver.Chrome()
-# driver.get(URL)
-# html = driver.page_source
-
-# PhantomJS
-driver = webdriver.PhantomJS()
+# Set Chromedriver options and get HTML
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+driver = webdriver.Chrome(options=options)
 driver.get(URL)
-html = driver.execute_script("return document.documentElement.innerHTML;")
 
+# Wait for Dynamic Javascript content to be loaded before fetching HTML
+delay = 3  # seconds
+try:
+    myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'question-description__3U1T')))
+    print("Page is ready!")
+except TimeoutException:
+    print("Loading took too much time!")
+
+html = driver.page_source
 parser = BeautifulSoup(html, "lxml")
 
-##############################################################################
+###############################################################################
 #
-# Extract Title, Description, and Problem number
+# Extract Title, Description, and Problem number from LXML
 # Break each line into separate lines if it is longer than 80 characters
 #
-##############################################################################
+###############################################################################
 
-DESCRIPTION = parser.find('div', {'class': 'question-description'}).get_text(strip=True)
+DESCRIPTION = parser.find('div', {'class': 'question-description__3U1T'}).get_text(strip=True)
 DESCRIPTION = "\n".join('\n'.join(textwrap.wrap(line, 80)) for line in DESCRIPTION.split("\n"))
 DIFFICULTY = parser.find('span', attrs={'class': 'difficulty-label'}).text.strip()
 TAGS = parser.find('div', {'id': 'tags-topics'}).text.strip()
@@ -109,12 +124,12 @@ def readme():
     # Comment anchor demarcating where the table begins in entry
     anchor_line_no = contents.index("<!---anchor--->\n")
 
-    for i in range(anchor_line_no + 1, len(contents)):
+    for i in range(anchor_line_no + 3, len(contents)):
         if int(contents[i].split("|")[1]) == int(NUMBER):
             # If entry exists, get the file link portion of that entry. Add
             # candidate file link entry, sort, and remove duplicates.
             files = sorted(contents[i].split("|")[3].split(",") + [line.split("|")[3]])
-            files = "".join(list(set(files)))
+            files = ", ".join(list(set(files)))
             contents[i] = "|" + NUMBER + "|[" + TITLE + "](" + URL + ")|" + files + "|" + TAGS + "|" + DIFFICULTY + "|\n"
             break
         elif int(NUMBER) < int(contents[i].split("|")[1]):
