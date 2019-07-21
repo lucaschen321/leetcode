@@ -51,9 +51,9 @@ public class TwoSum {
 <!---anchor--->
 | # | Title | Solution | Tags | Difficulty |
 |---| ----- | -------- | -----| ---------- |
-|1|[Two Sum](https://leetcode.com/problems/two-sum)|  [Java](./java/TwoSum.java), [Python](./python/p0001-two-sum/p0001-two-sum.py)|Array Hash Table|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./java/AddTwoNumbers.java), [Python](./python/p0002-add-two-numbers/p0002-add-two-numbers.py)|Linked List Math|Medium|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Java](./java/LongestSubstringWithoutRepeatingCharacters.java), [Python](./python/p0003-longest-substring-without-repeating-characters/p0003-longest-substring-without-repeating-characters.py)|Medium|
+|1|[Two Sum](https://leetcode.com/problems/two-sum)|  [Java](./java/TwoSum.java), [Python](./python/p0001-two-sum/p0001-two-sum.py)|Array, Hash Table|Easy|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./java/AddTwoNumbers.java), [Python](./python/p0002-add-two-numbers/p0002-add-two-numbers.py)|Linked List, Math|Medium|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Java](./java/LongestSubstringWithoutRepeatingCharacters.java), [Python](./python/p0003-longest-substring-without-repeating-characters/p0003-longest-substring-without-repeating-characters.py)|Hash Table, Two Pointers, String, Sliding Window|Medium|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[Java](./java/LongestPalindromicSubstring.java)|String|Medium|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[Java](./java/ZigZagConversion.java)|String|Medium|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Java](./java/ReverseInteger.java)|Math|Easy|
@@ -69,17 +69,17 @@ public class TwoSum {
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Java](./java/GenerateParentheses.java)|String, Backtracking|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Java](./java/MergekSortedLists.java)|Linked List, Divide and Conquer, Heap|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Java](./java/SwapNodesinPairs.java)|Linked List|Medium|
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array Two Pointers|Easy|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array, Two Pointers|Easy|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
-|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array Binary Search|Medium|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array, Binary Search|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./c++/N-Queens.cpp)|Backtracking|Hard|
-|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array Sort|Medium|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array, Sort|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|StringDynamic Programming|Hard|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./c++/MinimumWindowSubstring.cpp)|Hash TableTwo PointersString|Hard|
-|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./c++/BinaryTreeLevelOrderTraversal.cpp), [Java](./java/BinaryTreeLevelOrderTraversal.java)|TreeBreadth-first Search|Medium|
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./c++/BinaryTreeLevelOrderTraversal.cpp), [Java](./java/BinaryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/BestTimetoBuyandSellStock.java)|Array, Dynamic Programming|Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
-|139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java)|Dynamic Programming|Medium|
+|139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
