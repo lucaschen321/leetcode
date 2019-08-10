@@ -67,7 +67,7 @@ public class TwoSum {
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/RemoveNthNodeFromEndofList.java)|Linked List, Two Pointers|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./java/MergeTwoSortedLists.java)|Linked List|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Java](./java/GenerateParentheses.java)|String, Backtracking|Medium|
-|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Java](./java/MergekSortedLists.java)|Linked List, Divide and Conquer, Heap|Hard|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Java](./java/MergekSortedLists.java), [Python](./python/p0023-merge-k-sorted-lists/p0023-merge-k-sorted-lists.py)|Linked List, Divide and Conquer, Heap|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Java](./java/SwapNodesinPairs.java)|Linked List|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array, Two Pointers|Easy|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
@@ -77,6 +77,7 @@ public class TwoSum {
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./c++/N-Queens.cpp)|Backtracking|Hard|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array, Sort|Medium|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Python](./python/p0062-unique-paths/p0062-unique-paths.py)|Array, Dynamic Programming|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|StringDynamic Programming|Hard|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./c++/MinimumWindowSubstring.cpp)|Hash TableTwo PointersString|Hard|
 |78|[Subsets](https://leetcode.com/problems/subsets)|[Python](./python/p0078-subsets/p0078-subsets.py)|Array, Backtracking, Bit Manipulation|Medium|
