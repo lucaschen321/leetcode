@@ -72,6 +72,7 @@ public class TwoSum {
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array, Two Pointers|Easy|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array, Binary Search|Medium|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Python](./python/p0036-valid-sudoku/p0036-valid-sudoku.py)|Hash Table|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
