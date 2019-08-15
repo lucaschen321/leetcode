@@ -88,3 +88,4 @@ public class TwoSum {
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/BestTimetoBuyandSellStock.java)|Array, Dynamic Programming|Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
 |139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
