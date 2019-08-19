@@ -62,7 +62,7 @@ public class TwoSum {
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Java](./java/LongestCommonPrefix.java)|String|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum)|[Java](./java/ThreeSum.java)|Array, Two Pointers|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[Java](./java/ThreeSumClosest.java)|Array, Two Pointers|Medium|
-|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](./java/LetterCombinationsofaPhoneNumber.java)|String, Backtracking|Medium|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](./java/LetterCombinationsofaPhoneNumber.java), [Python](./python/p0017-letter-combinations-of-a-phone-number/p0017-letter-combinations-of-a-phone-number.py)|String, Backtracking|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum)|[Java](./java/FourSum.java)|Array, Hash Table, Two Pointers|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/RemoveNthNodeFromEndofList.java)|Linked List, Two Pointers|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./java/MergeTwoSortedLists.java)|Linked List|Easy|
@@ -73,7 +73,7 @@ public class TwoSum {
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array, Binary Search|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Python](./python/p0036-valid-sudoku/p0036-valid-sudoku.py)|Hash Table|Medium|
-|39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java)|Array, Backtracking|Medium|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java), [Python](./python/p0039-combination-sum/p0039-combination-sum.py)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Python](./python/p0049-group-anagrams/p0049-group-anagrams.py)|Hash Table, String|Medium|
@@ -90,3 +90,4 @@ public class TwoSum {
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
 |139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Python](./python/p0230-kth-smallest-element-in-a-bst/p0230-kth-smallest-element-in-a-bst.py)|Binary Search, Tree|Medium|
