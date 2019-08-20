@@ -76,6 +76,7 @@ public class TwoSum {
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java), [Python](./python/p0039-combination-sum/p0039-combination-sum.py)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Python](./python/p0048-rotate-image/p0048-rotate-image.py)|Array|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Python](./python/p0049-group-anagrams/p0049-group-anagrams.py)|Hash Table, String|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./c++/N-Queens.cpp)|Backtracking|Hard|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array, Sort|Medium|
