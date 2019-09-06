@@ -60,35 +60,44 @@ public class TwoSum {
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[Java](./java/PalindromeNumber.java)|Math|Easy|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[Java](./java/ContainerWithMostWater.java)|Array, Two Pointers|Medium|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Java](./java/LongestCommonPrefix.java)|String|Easy|
-|15|[3Sum](https://leetcode.com/problems/3sum)|[Java](./java/ThreeSum.java)|Array, Two Pointers|Medium|
+|15|[3Sum](https://leetcode.com/problems/3sum)|[Java](./java/ThreeSum.java), [Python](./python/p0015-3sum/p0015-3sum.py)|Array, Two Pointers|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[Java](./java/ThreeSumClosest.java)|Array, Two Pointers|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](./java/LetterCombinationsofaPhoneNumber.java), [Python](./python/p0017-letter-combinations-of-a-phone-number/p0017-letter-combinations-of-a-phone-number.py)|String, Backtracking|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum)|[Java](./java/FourSum.java)|Array, Hash Table, Two Pointers|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/RemoveNthNodeFromEndofList.java)|Linked List, Two Pointers|Medium|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Python](./python/p0020-valid-parentheses/p0020-valid-parentheses.py)|String, Stack|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./java/MergeTwoSortedLists.java)|Linked List|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Java](./java/GenerateParentheses.java)|String, Backtracking|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Java](./java/MergekSortedLists.java), [Python](./python/p0023-merge-k-sorted-lists/p0023-merge-k-sorted-lists.py)|Linked List, Divide and Conquer, Heap|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Java](./java/SwapNodesinPairs.java)|Linked List|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array, Two Pointers|Easy|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Python](./python/p0033-search-in-rotated-sorted-array/p0033-search-in-rotated-sorted-array.py)|Array, Binary Search|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array, Binary Search|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Python](./python/p0036-valid-sudoku/p0036-valid-sudoku.py)|Hash Table|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java), [Python](./python/p0039-combination-sum/p0039-combination-sum.py)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|ArrayTwo PointersStack|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|Array, Two Pointers, Stack|Hard|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Python](./python/p0048-rotate-image/p0048-rotate-image.py)|Array|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Python](./python/p0049-group-anagrams/p0049-group-anagrams.py)|Hash Table, String|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./c++/N-Queens.cpp)|Backtracking|Hard|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Python](./python/p0053-maximum-subarray/p0053-maximum-subarray.py)|Array, Divide and Conquer, Dynamic Programming|Easy|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array, Sort|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Python](./python/p0062-unique-paths/p0062-unique-paths.py)|Array, Dynamic Programming|Medium|
-|72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|StringDynamic Programming|Hard|
-|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./c++/MinimumWindowSubstring.cpp)|Hash TableTwo PointersString|Hard|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|String, Dynamic Programming|Hard|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./c++/MinimumWindowSubstring.cpp)|Hash Table, Two Pointers, String|Hard|
 |78|[Subsets](https://leetcode.com/problems/subsets)|[Python](./python/p0078-subsets/p0078-subsets.py)|Array, Backtracking, Bit Manipulation|Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Python](./python/p0098-validate-binary-search-tree/p0098-validate-binary-search-tree.py)|Tree, Depth-first Search|Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./c++/BinaryTreeLevelOrderTraversal.cpp), [Java](./java/BinaryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search|Medium|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[Python](./python/p0103-binary-tree-zigzag-level-order-traversal/p0103-binary-tree-zigzag-level-order-traversal.py)|Stack, Tree, Breadth-first Search|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[Python](./python/p0105-construct-binary-tree-from-preorder-and-inorder-traversal/p0105-construct-binary-tree-from-preorder-and-inorder-traversal.py)|Array, Tree, Depth-first Search|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/BestTimetoBuyandSellStock.java)|Array, Dynamic Programming|Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
 |139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
+|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Python](./python/p0230-kth-smallest-element-in-a-bst/p0230-kth-smallest-element-in-a-bst.py)|Binary Search, Tree|Medium|
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Python](./python/p0238-product-of-array-except-self/p0238-product-of-array-except-self.py)|Array|Medium|
+|301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
+|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)|[Python](./python/p0423-reconstruct-original-digits-from-english/p0423-reconstruct-original-digits-from-english.py)|Math|Medium|
+|925|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[Python](./python/p0925-construct-binary-tree-from-preorder-and-postorder-traversal/p0925-construct-binary-tree-from-preorder-and-postorder-traversal.py)|Tree|Medium|
