@@ -94,7 +94,9 @@ public class TwoSum {
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/BestTimetoBuyandSellStock.java)|Array, Dynamic Programming|Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
 |139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[Python](./python/p0141-linked-list-cycle/p0141-linked-list-cycle.py)|Linked List, Two Pointers|Easy|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[Python](./python/p0152-maximum-product-subarray/p0152-maximum-product-subarray.py)|Array, Dynamic Programming|Medium|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Python](./python/p0230-kth-smallest-element-in-a-bst/p0230-kth-smallest-element-in-a-bst.py)|Binary Search, Tree|Medium|
