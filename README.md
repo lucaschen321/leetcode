@@ -101,4 +101,6 @@ public class TwoSum {
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Python](./python/p0230-kth-smallest-element-in-a-bst/p0230-kth-smallest-element-in-a-bst.py)|Binary Search, Tree|Medium|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Python](./python/p0238-product-of-array-except-self/p0238-product-of-array-except-self.py)|Array|Medium|
+|274|[H-Index](https://leetcode.com/problems/h-index)|[Python](./python/p0274-h-index/p0274-h-index.py)|Hash Table, Sort|Medium|
+|275|[H-Index II](https://leetcode.com/problems/h-index-ii)|[Python](./python/p0275-h-index-ii/p0275-h-index-ii.py)|Binary Search|Medium|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
