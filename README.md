@@ -96,6 +96,8 @@ public class TwoSum {
 |139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./c++/WordBreak.cpp), [Java](./java/WordBreak.java) |Dynamic Programming|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[Python](./python/p0141-linked-list-cycle/p0141-linked-list-cycle.py)|Linked List, Two Pointers|Easy|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[Python](./python/p0152-maximum-product-subarray/p0152-maximum-product-subarray.py)|Array, Dynamic Programming|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Python](./python/p0153-find-minimum-in-rotated-sorted-array/p0153-find-minimum-in-rotated-sorted-array.py)|Array, Binary Search|Medium|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](./python/p0154-find-minimum-in-rotated-sorted-array-ii/p0154-find-minimum-in-rotated-sorted-array-ii.py)|Array, Binary Search|Hard|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
