@@ -85,7 +85,7 @@ public class TwoSum {
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](./c++/MergeIntervals.cpp), [Python](./python/p0056-merge-intervals/p0056-merge-intervals.py)|Array, Sort|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Python](./python/p0062-unique-paths/p0062-unique-paths.py)|Array, Dynamic Programming|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|String, Dynamic Programming|Hard|
-|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[C++](./c++/MinimumWindowSubstring.cpp)|Hash Table, Two Pointers, String|Hard|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[C++](./c++/MinimumWindowSubstring.cpp), [Python](./python/p0076-minimum-window-substring/p0076-minimum-window-substring.py)|Hash Table, Two Pointers, String, Sliding Window|Hard|
 |78|[Subsets](https://leetcode.com/problems/subsets)|[Python](./python/p0078-subsets/p0078-subsets.py)|Array, Backtracking, Bit Manipulation|Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Python](./python/p0098-validate-binary-search-tree/p0098-validate-binary-search-tree.py)|Tree, Depth-first Search|Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./c++/BinaryTreeLevelOrderTraversal.cpp), [Java](./java/BinaryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search|Medium|
@@ -98,6 +98,7 @@ public class TwoSum {
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[Python](./python/p0152-maximum-product-subarray/p0152-maximum-product-subarray.py)|Array, Dynamic Programming|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Python](./python/p0153-find-minimum-in-rotated-sorted-array/p0153-find-minimum-in-rotated-sorted-array.py)|Array, Binary Search|Medium|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](./python/p0154-find-minimum-in-rotated-sorted-array-ii/p0154-find-minimum-in-rotated-sorted-array-ii.py)|Array, Binary Search|Hard|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|[Python](./python/p0200-number-of-islands/p0200-number-of-islands.py)|Depth-first Search, Breadth-first Search, Union Find|Medium|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
