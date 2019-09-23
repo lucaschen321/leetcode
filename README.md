@@ -64,7 +64,7 @@ public class TwoSum {
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[Java](./java/ThreeSumClosest.java)|Array, Two Pointers|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](./java/LetterCombinationsofaPhoneNumber.java), [Python](./python/p0017-letter-combinations-of-a-phone-number/p0017-letter-combinations-of-a-phone-number.py)|String, Backtracking|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum)|[Java](./java/FourSum.java)|Array, Hash Table, Two Pointers|Medium|
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/RemoveNthNodeFromEndofList.java)|Linked List, Two Pointers|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/RemoveNthNodeFromEndofList.java), [Python](./python/p0019-remove-nth-node-from-end-of-list/p0019-remove-nth-node-from-end-of-list.py)|Linked List, Two Pointers|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Python](./python/p0020-valid-parentheses/p0020-valid-parentheses.py)|String, Stack|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./java/MergeTwoSortedLists.java)|Linked List|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Java](./java/GenerateParentheses.java)|String, Backtracking|Medium|
