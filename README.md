@@ -111,4 +111,5 @@ public class TwoSum {
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|[Python](./python/p0417-pacific-atlantic-water-flow/p0417-pacific-atlantic-water-flow.py)|Depth-first Search, Breadth-first Search|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Python](./python/p0424-longest-repeating-character-replacement/p0424-longest-repeating-character-replacement.py)|Two Pointers, Sliding Window|Medium|
+|435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Python](./python/p0435-non-overlapping-intervals/p0435-non-overlapping-intervals.py)|Greedy|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Python](./python/p0647-palindromic-substrings/p0647-palindromic-substrings.py)|String, Dynamic Programming|Medium|
