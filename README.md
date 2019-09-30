@@ -108,7 +108,9 @@ public class TwoSum {
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Python](./python/p0238-product-of-array-except-self/p0238-product-of-array-except-self.py)|Array|Medium|
 |274|[H-Index](https://leetcode.com/problems/h-index)|[Python](./python/p0274-h-index/p0274-h-index.py)|Hash Table, Sort|Medium|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii)|[Python](./python/p0275-h-index-ii/p0275-h-index-ii.py)|Binary Search|Medium|
+|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Python](./python/p0297-serialize-and-deserialize-binary-tree/p0297-serialize-and-deserialize-binary-tree.py)|Tree, Design|Hard|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Python](./python/p0347-top-k-frequent-elements/p0347-top-k-frequent-elements.py)|Hash Table, Heap|Medium|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|[Python](./python/p0417-pacific-atlantic-water-flow/p0417-pacific-atlantic-water-flow.py)|Depth-first Search, Breadth-first Search|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Python](./python/p0424-longest-repeating-character-replacement/p0424-longest-repeating-character-replacement.py)|Two Pointers, Sliding Window|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Python](./python/p0435-non-overlapping-intervals/p0435-non-overlapping-intervals.py)|Greedy|Medium|
