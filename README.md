@@ -77,7 +77,7 @@ public class TwoSum {
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Python](./python/p0036-valid-sudoku/p0036-valid-sudoku.py)|Hash Table|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](./java/CombinationSum.java), [Python](./python/p0039-combination-sum/p0039-combination-sum.py)|Array, Backtracking|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](./java/CombinationSumII.java)|Array, Backtracking|Medium|
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp)|Array, Two Pointers, Stack|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](./c++/TrappingRainWater.cpp), [Python](./python/p0042-trapping-rain-water/p0042-trapping-rain-water.py)|Array, Two Pointers, Stack|Hard|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Python](./python/p0048-rotate-image/p0048-rotate-image.py)|Array|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Python](./python/p0049-group-anagrams/p0049-group-anagrams.py)|Hash Table, String|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./c++/N-Queens.cpp)|Backtracking|Hard|
@@ -102,6 +102,8 @@ public class TwoSum {
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](./python/p0154-find-minimum-in-rotated-sorted-array-ii/p0154-find-minimum-in-rotated-sorted-array-ii.py)|Array, Binary Search|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|[Python](./python/p0200-number-of-islands/p0200-number-of-islands.py)|Depth-first Search, Breadth-first Search, Union Find|Medium|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule)|[Python](./python/p0207-course-schedule/p0207-course-schedule.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
+|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Python](./python/p0210-course-schedule-ii/p0210-course-schedule-ii.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator)|[Python](./python/p0224-basic-calculator/p0224-basic-calculator.py)|Math, Stack|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
