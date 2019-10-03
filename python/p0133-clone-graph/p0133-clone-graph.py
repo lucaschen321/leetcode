@@ -11,17 +11,15 @@ class Node:
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         dq = deque([node])
-        root = Node(node.val, [])
-        original_to_copy = {node: root}
+        original_to_copy = {node: Node(node.val, [])}  # Map from vertices to counterparts in clone
 
         while dq:
             curr_node = dq.popleft()
             for neighbor in curr_node.neighbors:
                 if neighbor not in original_to_copy:  # not yet visited or not in queue
                     dq.append(neighbor)
+                    original_to_copy[neighbor] = Node(neighbor.val, [])
 
-                copy_node = Node(neighbor.val, []) if neighbor not in original_to_copy else original_to_copy[neighbor]
-                original_to_copy[neighbor] = copy_node
-                original_to_copy[curr_node].neighbors.append(copy_node)
+                original_to_copy[curr_node].neighbors.append(original_to_copy[neighbor])
 
-        return root
+        return original_to_copy[node]
