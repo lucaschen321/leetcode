@@ -87,6 +87,7 @@ public class TwoSum {
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./c++/EditDistance.cpp)|String, Dynamic Programming|Hard|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)|[C++](./c++/MinimumWindowSubstring.cpp), [Python](./python/p0076-minimum-window-substring/p0076-minimum-window-substring.py)|Hash Table, Two Pointers, String, Sliding Window|Hard|
 |78|[Subsets](https://leetcode.com/problems/subsets)|[Python](./python/p0078-subsets/p0078-subsets.py)|Array, Backtracking, Bit Manipulation|Medium|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Python](./python/p0094-binary-tree-inorder-traversal/p0094-binary-tree-inorder-traversal.py)|Hash Table, Stack, Tree|Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Python](./python/p0098-validate-binary-search-tree/p0098-validate-binary-search-tree.py)|Tree, Depth-first Search|Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree)|[Python](./python/p0100-same-tree/p0100-same-tree.py)|Tree, Depth-first Search|Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./c++/BinaryTreeLevelOrderTraversal.cpp), [Java](./java/BinaryTreeLevelOrderTraversal.java)|Tree, Breadth-first Search|Medium|
