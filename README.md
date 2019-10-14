@@ -107,6 +107,7 @@ public class TwoSum {
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule)|[Python](./python/p0207-course-schedule/p0207-course-schedule.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Python](./python/p0210-course-schedule-ii/p0210-course-schedule-ii.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Python](./python/p0211-add-and-search-word-data-structure-design/p0211-add-and-search-word-data-structure-design.py)|Backtracking, Design, Trie|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator)|[Python](./python/p0224-basic-calculator/p0224-basic-calculator.py)|Math, Stack|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
@@ -121,3 +122,5 @@ public class TwoSum {
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Python](./python/p0424-longest-repeating-character-replacement/p0424-longest-repeating-character-replacement.py)|Two Pointers, Sliding Window|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Python](./python/p0435-non-overlapping-intervals/p0435-non-overlapping-intervals.py)|Greedy|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Python](./python/p0647-palindromic-substrings/p0647-palindromic-substrings.py)|String, Dynamic Programming|Medium|
+|733|[Flood Fill](https://leetcode.com/problems/flood-fill)|[Python](./python/p0733-flood-fill/p0733-flood-fill.py)|Depth-first Search|Easy|
+|766|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|[Python](./python/p0766-flatten-a-multilevel-doubly-linked-list/p0766-flatten-a-multilevel-doubly-linked-list.py)|Linked List, Depth-first Search|Medium|
