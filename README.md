@@ -125,6 +125,7 @@ public class TwoSum {
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|[Python](./python/p0417-pacific-atlantic-water-flow/p0417-pacific-atlantic-water-flow.py)|Depth-first Search, Breadth-first Search|Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Python](./python/p0424-longest-repeating-character-replacement/p0424-longest-repeating-character-replacement.py)|Two Pointers, Sliding Window|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Python](./python/p0435-non-overlapping-intervals/p0435-non-overlapping-intervals.py)|Greedy|Medium|
+|572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)|[Python](./python/p0572-subtree-of-another-tree/p0572-subtree-of-another-tree.py)|Tree|Easy|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Python](./python/p0647-palindromic-substrings/p0647-palindromic-substrings.py)|String, Dynamic Programming|Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill)|[Python](./python/p0733-flood-fill/p0733-flood-fill.py)|Depth-first Search|Easy|
 |766|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|[Python](./python/p0766-flatten-a-multilevel-doubly-linked-list/p0766-flatten-a-multilevel-doubly-linked-list.py)|Linked List, Depth-first Search|Medium|
