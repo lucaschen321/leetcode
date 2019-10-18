@@ -106,6 +106,7 @@ public class TwoSum {
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|[Python](./python/p0200-number-of-islands/p0200-number-of-islands.py)|Depth-first Search, Breadth-first Search, Union Find|Medium|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule)|[Python](./python/p0207-course-schedule/p0207-course-schedule.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[Python](./python/p0208-implement-trie-prefix-tree/p0208-implement-trie-prefix-tree.py)|Design, Trie|Medium|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Python](./python/p0210-course-schedule-ii/p0210-course-schedule-ii.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Python](./python/p0211-add-and-search-word-data-structure-design/p0211-add-and-search-word-data-structure-design.py)|Backtracking, Design, Trie|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
