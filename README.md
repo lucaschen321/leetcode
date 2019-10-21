@@ -118,6 +118,7 @@ public class TwoSum {
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings)|[Python](./python/p0271-encode-and-decode-strings/p0271-encode-and-decode-strings.py)|String|Medium|
 |274|[H-Index](https://leetcode.com/problems/h-index)|[Python](./python/p0274-h-index/p0274-h-index.py)|Hash Table, Sort|Medium|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii)|[Python](./python/p0275-h-index-ii/p0275-h-index-ii.py)|Binary Search|Medium|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)|[Python](./python/p0295-find-median-from-data-stream/p0295-find-median-from-data-stream.py)|Heap, Design|Hard|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Python](./python/p0297-serialize-and-deserialize-binary-tree/p0297-serialize-and-deserialize-binary-tree.py)|Tree, Design|Hard|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Python](./python/p0347-top-k-frequent-elements/p0347-top-k-frequent-elements.py)|Hash Table, Heap|Medium|
