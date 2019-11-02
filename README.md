@@ -72,6 +72,7 @@ public class TwoSum {
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Java](./java/SwapNodesinPairs.java)|Linked List|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[C++](./c++/RemoveDuplicatesfromSortedArray.cpp), [Python](./python/p0026-remove-duplicates-from-sorted-array/p0026-remove-duplicates-from-sorted-array.py)|Array, Two Pointers|Easy|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[C++](./c++/NextPermutation.cpp)|Array|Medium|
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)|[Python](./python/p0032-longest-valid-parentheses/p0032-longest-valid-parentheses.py)|String, Dynamic Programming|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Python](./python/p0033-search-in-rotated-sorted-array/p0033-search-in-rotated-sorted-array.py)|Array, Binary Search|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Python](./python/p0034-find-first-and-last-position-of-element-in-sorted-array/p0034-find-first-and-last-position-of-element-in-sorted-array.py)|Array, Binary Search|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Python](./python/p0036-valid-sudoku/p0036-valid-sudoku.py)|Hash Table|Medium|
@@ -97,6 +98,7 @@ public class TwoSum {
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[Python](./python/p0105-construct-binary-tree-from-preorder-and-inorder-traversal/p0105-construct-binary-tree-from-preorder-and-inorder-traversal.py)|Array, Tree, Depth-first Search|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/BestTimetoBuyandSellStock.java)|Array, Dynamic Programming|Easy|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/BestTimetoBuyandSellStockII.java)|Array, Greedy|Easy|
+|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[Python](./python/p0123-best-time-to-buy-and-sell-stock-iii/p0123-best-time-to-buy-and-sell-stock-iii.py)|Array, Dynamic Programming|Hard|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[Python](./python/p0124-binary-tree-maximum-path-sum/p0124-binary-tree-maximum-path-sum.py)|Tree, Depth-first Search|Hard|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Python](./python/p0128-longest-consecutive-sequence/p0128-longest-consecutive-sequence.py)|Array, Union Find|Hard|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph)|[Python](./python/p0133-clone-graph/p0133-clone-graph.py)|Depth-first Search, Breadth-first Search, Graph|Medium|
@@ -105,13 +107,16 @@ public class TwoSum {
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[Python](./python/p0152-maximum-product-subarray/p0152-maximum-product-subarray.py)|Array, Dynamic Programming|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Python](./python/p0153-find-minimum-in-rotated-sorted-array/p0153-find-minimum-in-rotated-sorted-array.py)|Array, Binary Search|Medium|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](./python/p0154-find-minimum-in-rotated-sorted-array-ii/p0154-find-minimum-in-rotated-sorted-array-ii.py)|Array, Binary Search|Hard|
+|188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[Python](./python/p0188-best-time-to-buy-and-sell-stock-iv/p0188-best-time-to-buy-and-sell-stock-iv.py)|Dynamic Programming|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands)|[Python](./python/p0200-number-of-islands/p0200-number-of-islands.py)|Depth-first Search, Breadth-first Search, Union Find|Medium|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Python](./python/p0206-reverse-linked-list/p0206-reverse-linked-list.py)|Linked List|Easy|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule)|[Python](./python/p0207-course-schedule/p0207-course-schedule.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[Python](./python/p0208-implement-trie-prefix-tree/p0208-implement-trie-prefix-tree.py)|Design, Trie|Medium|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[Python](./python/p0210-course-schedule-ii/p0210-course-schedule-ii.py)|Depth-first Search, Breadth-first Search, Graph, Topological Sort|Medium|
 |211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Python](./python/p0211-add-and-search-word-data-structure-design/p0211-add-and-search-word-data-structure-design.py)|Backtracking, Design, Trie|Medium|
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[Python](./python/p0212-word-search-ii/p0212-word-search-ii.py)|Backtracking, Trie|Hard|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)|[Python](./python/p0218-the-skyline-problem/p0218-the-skyline-problem.py)|Divide and Conquer, Heap, Binary Indexed Tree, Segment Tree, Line Sweep|Hard|
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square)|[Python](./python/p0221-maximal-square/p0221-maximal-square.py)|Dynamic Programming|Medium|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator)|[Python](./python/p0224-basic-calculator/p0224-basic-calculator.py)|Math, Stack|Hard|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Python](./python/p0226-invert-binary-tree/p0226-invert-binary-tree.py)|Tree|Easy|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Python](./python/p0230-kth-smallest-element-in-a-bst/p0230-kth-smallest-element-in-a-bst.py)|Binary Search, Tree|Medium|
@@ -120,6 +125,8 @@ public class TwoSum {
 |271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings)|[Python](./python/p0271-encode-and-decode-strings/p0271-encode-and-decode-strings.py)|String|Medium|
 |274|[H-Index](https://leetcode.com/problems/h-index)|[Python](./python/p0274-h-index/p0274-h-index.py)|Hash Table, Sort|Medium|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii)|[Python](./python/p0275-h-index-ii/p0275-h-index-ii.py)|Binary Search|Medium|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[Python](./python/p0287-find-the-duplicate-number/p0287-find-the-duplicate-number.py)|Array, Two Pointers, Binary Search|Medium|
+|289|[Game of Life](https://leetcode.com/problems/game-of-life)|[Python](./python/p0289-game-of-life/p0289-game-of-life.py)|Array|Medium|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)|[Python](./python/p0295-find-median-from-data-stream/p0295-find-median-from-data-stream.py)|Heap, Design|Hard|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[Python](./python/p0297-serialize-and-deserialize-binary-tree/p0297-serialize-and-deserialize-binary-tree.py)|Tree, Design|Hard|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[Python](./python/p0301-remove-invalid-parentheses/p0301-remove-invalid-parentheses.py)|Depth-first Search, Breadth-first Search|Hard|
@@ -133,3 +140,4 @@ public class TwoSum {
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Python](./python/p0647-palindromic-substrings/p0647-palindromic-substrings.py)|String, Dynamic Programming|Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill)|[Python](./python/p0733-flood-fill/p0733-flood-fill.py)|Depth-first Search|Easy|
 |766|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|[Python](./python/p0766-flatten-a-multilevel-doubly-linked-list/p0766-flatten-a-multilevel-doubly-linked-list.py)|Linked List, Depth-first Search|Medium|
+|1049|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)|[Python](./python/p1049-minimum-domino-rotations-for-equal-row/p1049-minimum-domino-rotations-for-equal-row.py)|Array, Greedy|Medium|
